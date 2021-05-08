@@ -1,0 +1,31 @@
+$(document).ready(function() {
+    $('#variable').click(function() {
+        var textarea=$('#txt');
+textarea.val(textarea.val().replace(/गण/g,"sum"));
+textarea.val(textarea.val().replace(/अ/g,"a"));
+textarea.val(textarea.val().replace(/आ/g,"aa"));
+textarea.val(textarea.val().replace(/इ/g,"e"));
+textarea.val(textarea.val().replace(/ई/g,"ee"));
+textarea.val(textarea.val().replace(/उ/g,"u"));
+textarea.val(textarea.val().replace(/ऊ/g,"uu"));
+textarea.val(textarea.val().replace(/ऋ/g,"ru"));
+textarea.val(textarea.val().replace(/ए/g,"ae"));
+textarea.val(textarea.val().replace(/ऐ/g,"ai"));
+textarea.val(textarea.val().replace(/ओ/g,"o"));
+textarea.val(textarea.val().replace(/औ/g,"ou"));
+textarea.val(textarea.val().replace(/अं/g,"am"));
+textarea.val(textarea.val().replace(/अः/g,"aaha"));
+textarea.val(textarea.val().replace(/क/g,"ka"));
+textarea.val(textarea.val().replace(/का/g,"kaa"));
+textarea.val(textarea.val().replace(/कि/g,"ki"));
+textarea.val(textarea.val().replace(/की/g,"kii"));
+textarea.val(textarea.val().replace(/कु/g,"ku"));
+textarea.val(textarea.val().replace(/कू/g,"kuu"));
+textarea.val(textarea.val().replace(/के/g,"ke"));
+textarea.val(textarea.val().replace(/कै/g,"kai"));
+textarea.val(textarea.val().replace(/को/g,"ko"));
+textarea.val(textarea.val().replace(/कौ/g,"kau"));
+textarea.val(textarea.val().replace(/कं/g,"kam"));
+textarea.val(textarea.val().replace(/कः/g,"kaha"));
+      });
+  });

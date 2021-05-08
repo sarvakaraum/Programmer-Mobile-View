@@ -1,0 +1,73 @@
+body {
+    font-family: "Studio-Feixen-Sans",Arial;
+    background-color: #e5e1da;
+    color: #000000;
+    padding-left: 70px;
+    padding-right: 60px;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    background: #e5e1da;
+    background-size: cover;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    z-index: -1;
+}
+
+@media (min-width: 1024px) {
+    body::before {
+        background-attachment: fixed;
+    }
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Studio-Feixen-Sans, Arial;
+    font-size: 23.472px;
+    margin: .67em 0;
+}
+
+.select {
+padding-left: 100px;
+}
+
+.labeling {
+    background-color: #05192DFF;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.dbtn {
+    background-color: #01c403;
+    border: none;
+    color: white;
+
+    padding: 12px 12px;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+/* Darker background on mouse-over */
+.dbtn:hover {
+    background-color: #d0d700;
+}
