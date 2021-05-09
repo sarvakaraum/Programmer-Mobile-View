@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 <head>
 
 
@@ -56,10 +56,7 @@
 
 <!-- Image and text -->
 <nav class="navbar navbar-light" style="padding-bottom: 20px; padding-right: 800px">
-    <a class="navbar-brand" href="#">
-        <img alt="" class="d-inline-block align-top" height="30" src="assets/img/logo.jpg" width="30">
-        SARVAKARAUM - THE REGIONAL LANGAUGE PROGRAMMER
-    </a>
+    <a class="navbar-brand" href="#" ><img alt="" class="d-inline-block align-top" height="30" src="assets/img/favicon.png" width="30">&nbsp;Sarvakaraum</a>
 </nav>
 <!-- ======= IDE Section ======= -->
 <section>
@@ -70,7 +67,7 @@
                     <form action="compile.php" id="form" method="POST" name="f2">
                         <select class="form-control" name="language"
                                 style="background-color:#4eac4e; color:white; align-self: center">
-                            <option value="c">C</option>
+                            <option value="cpp">C++ (Hindi)</option>
                         </select>
 
                         <!-- Code textarea -->
@@ -98,7 +95,7 @@
                             <textarea class="lined" cols="180" id="input" name="input"
                                       rows="19" style="background-color: #05192d; color:#309e30; width: 100%;"></textarea>
                             <input class="btn btn-success" id="st"
-                                   style="float:right; margin-left:6px; margin-bottom: 6px; margin-top: 0px;" type="submit"
+                                   style="float:right; margin-left:10px; margin-bottom: 10px; margin-top: 0px;" type="submit"
                                    value="Run Code">
                         </div>
 
